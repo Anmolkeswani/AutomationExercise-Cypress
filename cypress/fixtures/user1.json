@@ -1,0 +1,28 @@
+{
+  "user": {
+    "id": "58c196ba-6d33-440e-b734-9bdd353187fe",
+    "email": "anmol@cerebro",
+    "firstName": "Anmol",
+    "lastName": "Z2C",
+    "displayName": "doomsday",
+    "organizationId": "148c1a4d-b26b-4868-af0c-a5ffc651d769",
+    "organizationName": "Cerebro Internal",
+    "organizationSlug": "cerebro-internal",
+    "memberships": [
+      {
+        "membershipId": "fb93d6c3-3da3-4f57-b331-a8822d7711b9",
+        "roleCode": "platform_super_admin",
+        "roleLabel": "Platform Super Admin",
+        "clientId": null,
+        "permissions": [
+          "*"
+        ]
+      }
+    ],
+    "permissions": [
+      "*"
+    ],
+    "clientIds": [],
+    "hasDashboards": true
+  }
+}

@@ -1,0 +1,978 @@
+{
+  "activeDashboard": {
+    "id": "bc92792f-83a1-470d-9252-43b698ce752e",
+    "routeKey": "dashboard",
+    "dashboardType": "system",
+    "isTemplate": true,
+    "title": "Executive Overview",
+    "slug": "executive-overview",
+    "description": "Default system dashboard template",
+    "organizationId": null,
+    "clientId": null,
+    "ownerUserId": null,
+    "sourceDashboardId": null,
+    "legacyLayoutId": null,
+    "sourceRevision": 1,
+    "originKind": "direct",
+    "visibilityClass": "system_published",
+    "layoutPayload": {
+      "widgets": [
+        {
+          "id": "widget-performance-trends",
+          "size": "lg",
+          "title": "Performance Trends",
+          "subtitle": "Daily spend and conversion volume",
+          "widgetKey": "performance_trends"
+        },
+        {
+          "id": "widget-system-health",
+          "size": "sm",
+          "title": "Data Foundations",
+          "subtitle": "Ingestion health and latency monitor",
+          "widgetKey": "system_health"
+        },
+        {
+          "id": "widget-platform-mix",
+          "size": "sm",
+          "title": "Platform Mix",
+          "subtitle": "Spend distribution by platform",
+          "widgetKey": "platform_mix"
+        },
+        {
+          "id": "widget-anomaly-list",
+          "size": "md",
+          "title": "Recent Anomalies",
+          "subtitle": "Live performance monitor",
+          "widgetKey": "anomaly_list"
+        }
+      ]
+    },
+    "widgetPolicy": {},
+    "metadata": {
+      "purpose": "planner",
+      "seeded_by": "phase29_dashboard_foundations",
+      "questionSummary": "How is the business performing across the selected planning scope?",
+      "recommendedAudience": [
+        "operator_admin",
+        "operator_analyst"
+      ]
+    }
+  },
+  "availableDashboards": [
+    {
+      "id": "bc92792f-83a1-470d-9252-43b698ce752e",
+      "routeKey": "dashboard",
+      "dashboardType": "system",
+      "isTemplate": true,
+      "title": "Executive Overview",
+      "slug": "executive-overview",
+      "description": "Default system dashboard template",
+      "organizationId": null,
+      "clientId": null,
+      "ownerUserId": null,
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 1,
+      "originKind": "direct",
+      "visibilityClass": "system_published",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-performance-trends",
+            "size": "lg",
+            "title": "Performance Trends",
+            "subtitle": "Daily spend and conversion volume",
+            "widgetKey": "performance_trends"
+          },
+          {
+            "id": "widget-system-health",
+            "size": "sm",
+            "title": "Data Foundations",
+            "subtitle": "Ingestion health and latency monitor",
+            "widgetKey": "system_health"
+          },
+          {
+            "id": "widget-platform-mix",
+            "size": "sm",
+            "title": "Platform Mix",
+            "subtitle": "Spend distribution by platform",
+            "widgetKey": "platform_mix"
+          },
+          {
+            "id": "widget-anomaly-list",
+            "size": "md",
+            "title": "Recent Anomalies",
+            "subtitle": "Live performance monitor",
+            "widgetKey": "anomaly_list"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "planner",
+        "seeded_by": "phase29_dashboard_foundations",
+        "questionSummary": "How is the business performing across the selected planning scope?",
+        "recommendedAudience": [
+          "operator_admin",
+          "operator_analyst"
+        ]
+      }
+    },
+    {
+      "id": "5a05c35e-4b9c-4004-97e0-c019f431707f",
+      "routeKey": "dashboard",
+      "dashboardType": "system",
+      "isTemplate": true,
+      "title": "Planner Dashboard",
+      "slug": "planner-dashboard",
+      "description": "Planning and performance oversight template.",
+      "organizationId": null,
+      "clientId": null,
+      "ownerUserId": null,
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 1,
+      "originKind": "direct",
+      "visibilityClass": "system_published",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-performance-trends",
+            "size": "lg",
+            "title": "Performance Trends",
+            "subtitle": "Daily spend and conversion volume",
+            "widgetKey": "performance_trends"
+          },
+          {
+            "id": "widget-system-health",
+            "size": "sm",
+            "title": "Data Foundations",
+            "subtitle": "Ingestion health and latency monitor",
+            "widgetKey": "system_health"
+          },
+          {
+            "id": "widget-platform-mix",
+            "size": "sm",
+            "title": "Platform Mix",
+            "subtitle": "Spend distribution by platform",
+            "widgetKey": "platform_mix"
+          },
+          {
+            "id": "widget-anomaly-list",
+            "size": "md",
+            "title": "Recent Anomalies",
+            "subtitle": "Live performance monitor",
+            "widgetKey": "anomaly_list"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "planner",
+        "questionSummary": "How is the current planning scope pacing across spend, conversion, and platform mix?",
+        "recommendedAudience": [
+          "operator_admin",
+          "operator_analyst"
+        ]
+      }
+    },
+    {
+      "id": "515b2770-2131-433a-8ac5-aabc45cdefd1",
+      "routeKey": "dashboard",
+      "dashboardType": "system",
+      "isTemplate": true,
+      "title": "Ops / Trust Dashboard",
+      "slug": "ops-trust-dashboard",
+      "description": "Operational sync and trust monitoring template.",
+      "organizationId": null,
+      "clientId": null,
+      "ownerUserId": null,
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 1,
+      "originKind": "direct",
+      "visibilityClass": "system_published",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-connection-health",
+            "size": "sm",
+            "title": "Connection Health",
+            "subtitle": "Connection posture overview",
+            "widgetKey": "connection_health_summary"
+          },
+          {
+            "id": "widget-failed-runs",
+            "size": "md",
+            "title": "Failed Runs",
+            "subtitle": "Recent canonical failures",
+            "widgetKey": "failed_runs_summary"
+          },
+          {
+            "id": "widget-system-health",
+            "size": "sm",
+            "title": "Data Foundations",
+            "subtitle": "Runtime and health posture",
+            "widgetKey": "system_health"
+          },
+          {
+            "id": "widget-backfillable-gaps",
+            "size": "sm",
+            "title": "Backfillable Gaps",
+            "subtitle": "Actionable trust gaps",
+            "widgetKey": "backfillable_gaps_summary"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "ops_trust",
+        "questionSummary": "Where is trust at risk operationally, and which failures or queues need intervention first?",
+        "recommendedAudience": [
+          "operator_admin"
+        ]
+      }
+    },
+    {
+      "id": "12455a72-ec99-4892-9e70-3451d73a3b9d",
+      "routeKey": "dashboard",
+      "dashboardType": "system",
+      "isTemplate": true,
+      "title": "Coverage / Freshness Dashboard",
+      "slug": "coverage-freshness-dashboard",
+      "description": "Trust and freshness oversight template.",
+      "organizationId": null,
+      "clientId": null,
+      "ownerUserId": null,
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 1,
+      "originKind": "direct",
+      "visibilityClass": "system_published",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-coverage-status",
+            "size": "sm",
+            "title": "Coverage Status",
+            "subtitle": "Trust posture by platform",
+            "widgetKey": "coverage_status_summary"
+          },
+          {
+            "id": "widget-missing-days",
+            "size": "sm",
+            "title": "Missing Days",
+            "subtitle": "Missing and partial gaps",
+            "widgetKey": "missing_days_summary"
+          },
+          {
+            "id": "widget-backfillable",
+            "size": "sm",
+            "title": "Backfillable Gaps",
+            "subtitle": "Actionable trust gaps",
+            "widgetKey": "backfillable_gaps_summary"
+          },
+          {
+            "id": "widget-next-runs",
+            "size": "md",
+            "title": "Next Scheduled Runs",
+            "subtitle": "Schedule posture",
+            "widgetKey": "next_scheduled_runs"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "coverage_freshness",
+        "questionSummary": "Which platform days are trustworthy, which gaps are expected, and what should happen next?",
+        "recommendedAudience": [
+          "operator_admin",
+          "operator_analyst"
+        ]
+      }
+    },
+    {
+      "id": "e1f1e2db-2a91-4e1c-8d81-f6cc04b08563",
+      "routeKey": "dashboard",
+      "dashboardType": "system",
+      "isTemplate": true,
+      "title": "Client Executive Dashboard",
+      "slug": "client-executive-dashboard",
+      "description": "Executive summary template for client-facing reporting.",
+      "organizationId": null,
+      "clientId": null,
+      "ownerUserId": null,
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 1,
+      "originKind": "direct",
+      "visibilityClass": "system_published",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-kpi-summary",
+            "size": "sm",
+            "title": "KPI Summary",
+            "subtitle": "Topline business outcomes",
+            "widgetKey": "kpi_summary"
+          },
+          {
+            "id": "widget-performance-trends",
+            "size": "lg",
+            "title": "Performance Trends",
+            "subtitle": "Daily spend and conversion volume",
+            "widgetKey": "performance_trends"
+          },
+          {
+            "id": "widget-platform-breakdown",
+            "size": "sm",
+            "title": "Platform Breakdown",
+            "subtitle": "Platform KPI mix",
+            "widgetKey": "platform_breakdown_table"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "client_executive",
+        "questionSummary": "What should client stakeholders understand first about the selected business scope?",
+        "recommendedAudience": [
+          "client_admin",
+          "client_viewer"
+        ]
+      }
+    },
+    {
+      "id": "e6ba385f-93e1-441a-b6e9-3e208296283c",
+      "routeKey": "dashboard",
+      "dashboardType": "personal",
+      "isTemplate": false,
+      "title": "My Dashboard",
+      "slug": "my-dashboard-1780381836109",
+      "description": null,
+      "organizationId": "148c1a4d-b26b-4868-af0c-a5ffc651d769",
+      "clientId": null,
+      "ownerUserId": "58c196ba-6d33-440e-b734-9bdd353187fe",
+      "sourceDashboardId": null,
+      "legacyLayoutId": null,
+      "sourceRevision": 4,
+      "originKind": "direct",
+      "visibilityClass": "private",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-1780381893487",
+            "size": "md",
+            "title": "Custom Workspace Widget",
+            "subtitle": "Build a safe governed widget from approved datasets",
+            "widgetKey": "custom_widget"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "custom",
+        "lockedFilters": {},
+        "defaultFilters": {}
+      }
+    },
+    {
+      "id": "316473ab-4f37-4831-889f-1ae8efce2158",
+      "routeKey": "dashboard",
+      "dashboardType": "personal",
+      "isTemplate": false,
+      "title": "My Dashboard Copy",
+      "slug": "my-dashboard-copy-1780381841298",
+      "description": null,
+      "organizationId": "148c1a4d-b26b-4868-af0c-a5ffc651d769",
+      "clientId": null,
+      "ownerUserId": "58c196ba-6d33-440e-b734-9bdd353187fe",
+      "sourceDashboardId": "e6ba385f-93e1-441a-b6e9-3e208296283c",
+      "legacyLayoutId": null,
+      "sourceRevision": 9,
+      "originKind": "clone",
+      "visibilityClass": "private",
+      "layoutPayload": {
+        "widgets": [
+          {
+            "id": "widget-1780381893487",
+            "size": "md",
+            "title": "Custom Workspace Widget",
+            "subtitle": "Build a safe governed widget from approved datasets",
+            "widgetKey": "custom_widget"
+          }
+        ]
+      },
+      "widgetPolicy": {},
+      "metadata": {
+        "purpose": "custom",
+        "clonedFrom": "e6ba385f-93e1-441a-b6e9-3e208296283c",
+        "lockedFilters": {},
+        "defaultFilters": {}
+      }
+    }
+  ],
+  "availableWidgets": [
+    {
+      "widgetKey": "performance_trends",
+      "family": "trend",
+      "widgetClass": "chart",
+      "title": "Performance Trends",
+      "subtitle": "Daily spend and conversion volume",
+      "purposeText": "Track spend and conversions across the selected window.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "area_chart",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "platform_mix",
+      "family": "breakdown",
+      "widgetClass": "chart",
+      "title": "Platform Mix",
+      "subtitle": "Spend distribution by platform",
+      "purposeText": "Compare platform investment split for the active scope.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "donut_chart",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "anomaly_list",
+      "family": "anomaly",
+      "widgetClass": "list",
+      "title": "Recent Anomalies",
+      "subtitle": "Live performance monitor",
+      "purposeText": "Surface notable performance swings that need investigation.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "anomaly_detection",
+      "renderType": "anomaly_list",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "system_health",
+      "family": "runtime",
+      "widgetClass": "status",
+      "title": "Data Foundations",
+      "subtitle": "Ingestion health and latency monitor",
+      "purposeText": "Monitor foundational ingestion and freshness posture.",
+      "requiredPermission": "dashboards:manage",
+      "supportedScopes": [
+        "org"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "status_list",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "system-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin"
+      ]
+    },
+    {
+      "widgetKey": "kpi_summary",
+      "family": "kpi",
+      "widgetClass": "status",
+      "title": "KPI Summary",
+      "subtitle": "Spend, conversions, CPA, and ROAS at a glance",
+      "purposeText": "Give stakeholders the essential topline outcomes for the current scope.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "kpi_summary",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "trend_comparison",
+      "family": "trend",
+      "widgetClass": "chart",
+      "title": "Trend Comparison",
+      "subtitle": "Current vs prior-period trend posture",
+      "purposeText": "Compare current trend momentum against the prior period.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "area_chart",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "platform_breakdown_table",
+      "family": "breakdown",
+      "widgetClass": "list",
+      "title": "Platform Breakdown",
+      "subtitle": "Platform-level KPI table",
+      "purposeText": "Scan KPI mix by platform without leaving the dashboard.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "table",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "top_entities_table",
+      "family": "table",
+      "widgetClass": "list",
+      "title": "Top Entities",
+      "subtitle": "Top campaigns or accounts by output",
+      "purposeText": "Highlight the highest-value entities in the current scope.",
+      "requiredPermission": "dashboard:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels",
+        "accounts",
+        "timezone",
+        "search"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "mv_daily_rollup",
+      "renderType": "table",
+      "exportEnabled": false,
+      "drillEnabled": false,
+      "configSchemaVersion": 1,
+      "availabilityClass": "personal-only",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin",
+        "client_viewer"
+      ]
+    },
+    {
+      "widgetKey": "coverage_status_summary",
+      "family": "trust",
+      "widgetClass": "status",
+      "title": "Coverage Status",
+      "subtitle": "Fresh, stale, missing, and failed coverage posture",
+      "purposeText": "Summarize trust posture for the selected coverage window.",
+      "requiredPermission": "dashboards:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "trust_summary",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin"
+      ]
+    },
+    {
+      "widgetKey": "missing_days_summary",
+      "family": "trust",
+      "widgetClass": "status",
+      "title": "Missing Days",
+      "subtitle": "Missing and partial trust gaps by platform",
+      "purposeText": "Show where expected reporting dates are not fully covered.",
+      "requiredPermission": "dashboards:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "trust_summary",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst",
+        "client_admin"
+      ]
+    },
+    {
+      "widgetKey": "backfillable_gaps_summary",
+      "family": "trust",
+      "widgetClass": "status",
+      "title": "Backfillable Gaps",
+      "subtitle": "Actionable trust gaps that can be rerun or backfilled",
+      "purposeText": "Help ops teams prioritize gaps that can be fixed immediately.",
+      "requiredPermission": "dashboards:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "trust_summary",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst"
+      ]
+    },
+    {
+      "widgetKey": "next_scheduled_runs",
+      "family": "runtime",
+      "widgetClass": "list",
+      "title": "Next Scheduled Runs",
+      "subtitle": "Upcoming connection schedules",
+      "purposeText": "See which connections are expected to refresh next.",
+      "requiredPermission": "connections:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "table",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst"
+      ]
+    },
+    {
+      "widgetKey": "failed_runs_summary",
+      "family": "runtime",
+      "widgetClass": "list",
+      "title": "Failed Runs",
+      "subtitle": "Recent failed canonical runs",
+      "purposeText": "Highlight failed jobs that are still affecting trust posture.",
+      "requiredPermission": "sync:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "dateRange",
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "table",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst"
+      ]
+    },
+    {
+      "widgetKey": "connection_health_summary",
+      "family": "runtime",
+      "widgetClass": "list",
+      "title": "Connection Health",
+      "subtitle": "Active, disabled, and unhealthy connection posture",
+      "purposeText": "Show which connections are healthy enough to sustain trust coverage.",
+      "requiredPermission": "connections:view",
+      "supportedScopes": [
+        "org",
+        "client"
+      ],
+      "supportedRoutes": [
+        "dashboard"
+      ],
+      "supportedFilters": [
+        "clients",
+        "products",
+        "channels"
+      ],
+      "supportedDashboardTypes": [
+        "system",
+        "org",
+        "client",
+        "personal"
+      ],
+      "canonicalDatasetFamily": "etl_freshness_snapshot",
+      "renderType": "table",
+      "exportEnabled": false,
+      "drillEnabled": true,
+      "configSchemaVersion": 1,
+      "availabilityClass": "org-approved",
+      "allowedRoleCodes": [
+        "operator_admin",
+        "operator_analyst"
+      ]
+    }
+  ],
+  "personalDashboardCount": 2,
+  "personalDashboardLimit": 5,
+  "resolutionReason": "org_assignment",
+  "migrationStatus": {
+    "importedLegacyLayout": false
+  }
+}

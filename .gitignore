@@ -1,0 +1,12 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/e2e/Cerebro
+cypress/e2e/Easypaisa
+cypress/e2e/Brainchild_Automation
+cypress/e2e/APItesting.cy.js
+cypress/e2e/dodge.cy.js
+cypress/e2e/htmltagcounter.cy.js
+cypress/e2e/iframetest.cy.js
+.DS_Store

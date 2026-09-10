@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@bahmutov/cy-grep": "^3.0.5",
+    "axe-core": "^4.12.1",
+    "cypress": "^15.14.1",
+    "cypress-audit": "^1.1.0",
+    "cypress-axe": "^1.7.0",
+    "cypress-plugin-tab": "^2.0.0",
+    "fs-extra": "^11.3.4",
+    "lighthouse": "^13.4.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-real-events": "^1.15.0",
+    "cypress-wait-until": "^3.0.2"
+  }
+}
