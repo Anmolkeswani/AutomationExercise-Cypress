@@ -9,4 +9,5 @@ cypress/e2e/APItesting.cy.js
 cypress/e2e/dodge.cy.js
 cypress/e2e/htmltagcounter.cy.js
 cypress/e2e/iframetest.cy.js
+firsttest.cy.js
 .DS_Store
